@@ -13,7 +13,7 @@ const About = () => {
         <h1 className="text-4xl md:text-5xl font-libre font-bold text-white mb-8">
           About Us
         </h1>
-        <div className="bg-white rounded-lg p-8 shadow-lg">
+        <div className="bg-amber-50 rounded-lg p-8 shadow-lg">
           <p className="text-xl font-crimson text-gray-700 mb-6">
             Our journey began with a simple vision: to help dreamers turn their
             aspirations into tangible realities.

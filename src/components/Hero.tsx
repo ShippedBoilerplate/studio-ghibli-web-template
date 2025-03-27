@@ -1,28 +1,29 @@
-
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
-import BackgroundImage from './BackgroundImage';
+import React from "react";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import BackgroundImage from "./BackgroundImage";
 
 const Hero = () => {
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
       {/* Background Image */}
       <BackgroundImage />
-      
+
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-screen flex flex-col justify-center items-center">
         {/* Hero Text */}
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2, delay: 0.3 }}
           className="text-5xl md:text-7xl lg:text-8xl font-libre font-bold text-white text-center leading-tight tracking-wide"
         >
-          Turn dreams<br/>into reality
+          Turn dreams
+          <br />
+          into reality
         </motion.h1>
-        
+
         {/* Subtitle */}
-        <motion.p 
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.6 }}
@@ -30,7 +31,7 @@ const Hero = () => {
         >
           Take the first step to building your dreams
         </motion.p>
-        
+
         {/* CTA Button */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -38,14 +39,14 @@ const Hero = () => {
           transition={{ duration: 1, delay: 1 }}
           className="mt-12"
         >
-          <Link 
-            to="/get-started" 
+          <Link
+            to="/get-started"
             className="bg-coral hover:bg-opacity-90 text-white font-crimson font-medium px-12 py-4 rounded-full text-xl transition-all duration-300 transform hover:scale-105"
           >
             Get Started
           </Link>
         </motion.div>
-        
+
         {/* Social Proof */}
         <motion.p
           initial={{ opacity: 0 }}

@@ -1,6 +1,10 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Testimonials from "../components/Testimonials";
+import FAQ from "../components/FAQ";
+import { Footer } from "@/components/Footer";
+import CTA from "../components/CTA";
 
 const Index = () => {
   React.useEffect(() => {
@@ -16,11 +20,16 @@ const Index = () => {
       document.head.removeChild(link);
     };
   }, []);
-
   return (
-    <div className="min-h-screen">
+    <div className="flex flex-col min-h-screen">
       <Navbar />
-      <Hero />
+      <main className="flex-grow">
+        <Hero />
+        <Testimonials />
+        <FAQ />
+        <CTA />
+      </main>
+      <Footer />
     </div>
   );
 };

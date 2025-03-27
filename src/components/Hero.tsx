@@ -22,7 +22,7 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2, delay: 0.3 }}
-          className="text-5xl md:text-7xl lg:text-8xl font-playfair font-bold text-white text-center leading-tight tracking-wide"
+          className="text-5xl md:text-7xl lg:text-8xl font-libre font-bold text-white text-center leading-tight tracking-wide"
         >
           Turn dreams<br/>into reality
         </motion.h1>

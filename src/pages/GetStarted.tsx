@@ -7,13 +7,13 @@ const GetStarted = () => {
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-blue-100">
       <Navbar />
       <div className="pt-32 px-6 max-w-4xl mx-auto text-center">
-        <h1 className="text-4xl md:text-5xl font-playfair font-bold text-gray-800 mb-8">Begin Your Journey</h1>
+        <h1 className="text-4xl md:text-5xl font-libre font-bold text-gray-800 mb-8">Begin Your Journey</h1>
         <p className="text-xl font-crimson text-gray-700 mb-10">
           You're one step closer to turning your dreams into reality.
         </p>
         
         <div className="bg-white rounded-lg shadow-lg p-8 text-left">
-          <h2 className="text-2xl font-playfair font-bold text-gray-800 mb-4">Create Your Account</h2>
+          <h2 className="text-2xl font-libre font-bold text-gray-800 mb-4">Create Your Account</h2>
           <form className="space-y-6">
             <div>
               <label htmlFor="fullname" className="block text-gray-700 font-crimson text-lg mb-2">Full Name</label>

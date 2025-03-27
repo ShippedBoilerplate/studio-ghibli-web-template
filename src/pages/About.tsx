@@ -7,7 +7,7 @@ const About = () => {
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-blue-100">
       <Navbar />
       <div className="pt-32 px-6 max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-playfair font-bold text-gray-800 mb-8">About Us</h1>
+        <h1 className="text-4xl md:text-5xl font-libre font-bold text-gray-800 mb-8">About Us</h1>
         <p className="text-xl font-crimson text-gray-700 mb-6">
           Our journey began with a simple vision: to help dreamers turn their aspirations into tangible realities.
         </p>

@@ -20,7 +20,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'playfair': ['"Playfair Display"', 'serif'],
+				'libre': ['"Libre Baskerville"', 'serif'],
 				'crimson': ['"Crimson Pro"', 'serif'],
 			},
 			colors: {

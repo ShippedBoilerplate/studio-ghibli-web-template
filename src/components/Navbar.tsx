@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -11,15 +12,15 @@ const Navbar = () => {
       className="absolute top-0 left-0 right-0 z-10 py-6 px-8 md:px-12"
     >
       <nav className="flex justify-start space-x-12">
-        <a href="/" className="text-white hover:text-opacity-80 transition-all duration-300 text-lg font-crimson tracking-wide">
+        <Link to="/" className="text-white hover:text-opacity-80 transition-all duration-300 text-lg font-crimson tracking-wide">
           Home
-        </a>
-        <a href="/about" className="text-white hover:text-opacity-80 transition-all duration-300 text-lg font-crimson tracking-wide">
+        </Link>
+        <Link to="/about" className="text-white hover:text-opacity-80 transition-all duration-300 text-lg font-crimson tracking-wide">
           About
-        </a>
-        <a href="/contact" className="text-white hover:text-opacity-80 transition-all duration-300 text-lg font-crimson tracking-wide">
+        </Link>
+        <Link to="/contact" className="text-white hover:text-opacity-80 transition-all duration-300 text-lg font-crimson tracking-wide">
           Contact
-        </a>
+        </Link>
       </nav>
     </motion.header>
   );

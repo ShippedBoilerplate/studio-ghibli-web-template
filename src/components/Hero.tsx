@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import BackgroundImage from './BackgroundImage';
 
 const Hero = () => {
@@ -37,12 +38,12 @@ const Hero = () => {
           transition={{ duration: 1, delay: 1 }}
           className="mt-12"
         >
-          <a 
-            href="/get-started" 
+          <Link 
+            to="/get-started" 
             className="bg-coral hover:bg-opacity-90 text-white font-crimson font-medium px-12 py-4 rounded-full text-xl transition-all duration-300 transform hover:scale-105"
           >
             Get Started
-          </a>
+          </Link>
         </motion.div>
         
         {/* Social Proof */}

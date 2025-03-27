@@ -1,20 +1,13 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import BackgroundImage from './BackgroundImage';
 
 const Hero = () => {
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 z-0">
-        <img 
-          src="/landscape-background.jpg" 
-          alt="Serene landscape with mountains and trees" 
-          className="w-full h-full object-cover"
-          loading="lazy"
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-20"></div>
-      </div>
+      <BackgroundImage />
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-screen flex flex-col justify-center items-center">
         {/* Hero Text */}

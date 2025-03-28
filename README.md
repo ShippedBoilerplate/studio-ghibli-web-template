@@ -16,11 +16,13 @@ This repo is a website template made with TailwindCSS, and React, with Studio Gh
 
 ### Prerequisites
 
-You need node.js and npm installed on your machine.
+You need `node.js` and `npm` installed on your machine.
+
+### Steps
 
 Clone the repository or download the zip.
 
-Open the forlder with your terminal, and run
+Open the forlder with your terminal, and run:
 
 ```sh
 # install the dependencies
@@ -30,9 +32,13 @@ npm i
 npm run dev
 ```
 
-Now open `http://localhost:8080/` in the browser to see it.
+Now open [http://localhost:8080/](http://localhost:8080/) in the browser to see the website.
 
 ---
 
 This template has been made by [ikoichi](https://x.com/ikoichi) and brought to you by [shipped.club](https://shipped.club?ref=hero-image-essence) — The best Next.js SaaS Kit for busy devs.
+
+Let me know if you have any feedback!
+
+Luca (ikoichi)
 

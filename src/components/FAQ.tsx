@@ -43,7 +43,7 @@ const FAQ = () => {
 
   return (
     <>
-      <section className="relative py-20">
+      <section className="relative py-20 min-h-[100vh]">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center mb-12">
             <motion.div

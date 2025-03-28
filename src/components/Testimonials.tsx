@@ -82,7 +82,7 @@ const Testimonials: React.FC = () => {
   ];
 
   return (
-    <section className="relative z-10 py-24">
+    <section className="relative z-10 min-h-[100vh]">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 font-crimson text-white">
           Join 200+ dreamers

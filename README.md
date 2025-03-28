@@ -1,8 +1,16 @@
+Powered by
+
+![image](https://github.com/user-attachments/assets/8fa3831a-a475-49fd-972d-0f622b7130af)
+
+
+
+
+
 ![readme_image](https://github.com/user-attachments/assets/edc0fffa-dbf9-4569-a543-6fbc2ded4108)
 
 # Welcome to Dreams Into Reality
 
-This repo is a website template made with TailwindCSS, and React, with Studio Ghibli-style illustration.
+This repo is a website template made with TailwindCSS, and React, with Studio Ghibli-style illustrations.
 
 ## How to use
 

@@ -1,69 +1,28 @@
-# Welcome to your Lovable project
+# Welcome to Dreams Into Reality
 
-## Project info
+This repo is a website template made with TailwindCSS, and React, with Studio Ghibli-style illustration.
 
-**URL**: https://lovable.dev/projects/f7983227-8403-481d-919b-cebbe79dcf07
+## How to use
 
-## How can I edit this code?
+### Prerequisites
 
-There are several ways of editing your application.
+You need node.js and npm installed on your machine.
 
-**Use Lovable**
+Clone the repository or download the zip.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f7983227-8403-481d-919b-cebbe79dcf07) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Open the forlder with your terminal, and run
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+# install the dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# run the local web server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Now open `http://localhost:8080/` in the browser to see it.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+This template has been made by [ikoichi](https://x.com/ikoichi) and brought to you by [shipped.club](https://shipped.club?ref=hero-image-essence) — The best Next.js SaaS Kit for busy devs.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f7983227-8403-481d-919b-cebbe79dcf07) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
